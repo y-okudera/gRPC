@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		206937A7FAD53ADAE2EC3D70 /* Pods_GRPCServerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEFE7770EF13100B39EAF38 /* Pods_GRPCServerTests.framework */; };
+		64D27B4A236E4A5600FF86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D27B49236E4A5600FF86A0 /* AppDelegate.swift */; };
+		64D27B4C236E4A5600FF86A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D27B4B236E4A5600FF86A0 /* ViewController.swift */; };
+		64D27B4E236E4A5700FF86A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D27B4D236E4A5700FF86A0 /* Assets.xcassets */; };
+		64D27B51236E4A5700FF86A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D27B4F236E4A5700FF86A0 /* Main.storyboard */; };
+		64D27B5D236E4A5700FF86A0 /* GRPCServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D27B5C236E4A5700FF86A0 /* GRPCServerTests.swift */; };
+		64D27B69236E4C7600FF86A0 /* GreeterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D27B68236E4C7600FF86A0 /* GreeterProvider.swift */; };
+		64D27B6D236E4CAB00FF86A0 /* helloworld.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D27B6B236E4CAA00FF86A0 /* helloworld.grpc.swift */; };
+		64D27B6E236E4CAB00FF86A0 /* helloworld.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D27B6C236E4CAA00FF86A0 /* helloworld.pb.swift */; };
+		DDF5F348A3EE612D4C222911 /* Pods_GRPCServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB08FA25FEC4FF2B1479BFB5 /* Pods_GRPCServer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64D27B59236E4A5700FF86A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64D27B3E236E4A5600FF86A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D27B45236E4A5600FF86A0;
+			remoteInfo = GRPCServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33FD29A035F0938C7725FC0F /* Pods-GRPCServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCServer.debug.xcconfig"; path = "Target Support Files/Pods-GRPCServer/Pods-GRPCServer.debug.xcconfig"; sourceTree = "<group>"; };
+		508A00AAC7F851E8E664D143 /* Pods-GRPCServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCServerTests.release.xcconfig"; path = "Target Support Files/Pods-GRPCServerTests/Pods-GRPCServerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E1CE78E21087C48E7343AA7 /* Pods-GRPCServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCServer.release.xcconfig"; path = "Target Support Files/Pods-GRPCServer/Pods-GRPCServer.release.xcconfig"; sourceTree = "<group>"; };
+		64D27B46236E4A5600FF86A0 /* GRPCServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRPCServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D27B49236E4A5600FF86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D27B4B236E4A5600FF86A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64D27B4D236E4A5700FF86A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D27B50236E4A5700FF86A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D27B52236E4A5700FF86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D27B58236E4A5700FF86A0 /* GRPCServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRPCServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D27B5C236E4A5700FF86A0 /* GRPCServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRPCServerTests.swift; sourceTree = "<group>"; };
+		64D27B5E236E4A5700FF86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D27B68236E4C7600FF86A0 /* GreeterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreeterProvider.swift; sourceTree = "<group>"; };
+		64D27B6B236E4CAA00FF86A0 /* helloworld.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helloworld.grpc.swift; sourceTree = "<group>"; };
+		64D27B6C236E4CAA00FF86A0 /* helloworld.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helloworld.pb.swift; sourceTree = "<group>"; };
+		8FEFE7770EF13100B39EAF38 /* Pods_GRPCServerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRPCServerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D04175B5BF134F5535CF1E5 /* Pods-GRPCServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCServerTests.debug.xcconfig"; path = "Target Support Files/Pods-GRPCServerTests/Pods-GRPCServerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB08FA25FEC4FF2B1479BFB5 /* Pods_GRPCServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRPCServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D27B43236E4A5600FF86A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF5F348A3EE612D4C222911 /* Pods_GRPCServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D27B55236E4A5700FF86A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206937A7FAD53ADAE2EC3D70 /* Pods_GRPCServerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3952CDCAD747D4368063C396 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33FD29A035F0938C7725FC0F /* Pods-GRPCServer.debug.xcconfig */,
+				5E1CE78E21087C48E7343AA7 /* Pods-GRPCServer.release.xcconfig */,
+				9D04175B5BF134F5535CF1E5 /* Pods-GRPCServerTests.debug.xcconfig */,
+				508A00AAC7F851E8E664D143 /* Pods-GRPCServerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		64D27B3D236E4A5600FF86A0 = {
+			isa = PBXGroup;
+			children = (
+				64D27B48236E4A5600FF86A0 /* GRPCServer */,
+				64D27B5B236E4A5700FF86A0 /* GRPCServerTests */,
+				64D27B47236E4A5600FF86A0 /* Products */,
+				3952CDCAD747D4368063C396 /* Pods */,
+				B11A9B14554303A32AD4BD1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64D27B47236E4A5600FF86A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D27B46236E4A5600FF86A0 /* GRPCServer.app */,
+				64D27B58236E4A5700FF86A0 /* GRPCServerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D27B48236E4A5600FF86A0 /* GRPCServer */ = {
+			isa = PBXGroup;
+			children = (
+				64D27B67236E4C6E00FF86A0 /* Models */,
+				64D27B49236E4A5600FF86A0 /* AppDelegate.swift */,
+				64D27B4B236E4A5600FF86A0 /* ViewController.swift */,
+				64D27B4D236E4A5700FF86A0 /* Assets.xcassets */,
+				64D27B4F236E4A5700FF86A0 /* Main.storyboard */,
+				64D27B52236E4A5700FF86A0 /* Info.plist */,
+			);
+			path = GRPCServer;
+			sourceTree = "<group>";
+		};
+		64D27B5B236E4A5700FF86A0 /* GRPCServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				64D27B5C236E4A5700FF86A0 /* GRPCServerTests.swift */,
+				64D27B5E236E4A5700FF86A0 /* Info.plist */,
+			);
+			path = GRPCServerTests;
+			sourceTree = "<group>";
+		};
+		64D27B67236E4C6E00FF86A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64D27B6A236E4C8E00FF86A0 /* Generated */,
+				64D27B68236E4C7600FF86A0 /* GreeterProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64D27B6A236E4C8E00FF86A0 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				64D27B6B236E4CAA00FF86A0 /* helloworld.grpc.swift */,
+				64D27B6C236E4CAA00FF86A0 /* helloworld.pb.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		B11A9B14554303A32AD4BD1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB08FA25FEC4FF2B1479BFB5 /* Pods_GRPCServer.framework */,
+				8FEFE7770EF13100B39EAF38 /* Pods_GRPCServerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D27B45236E4A5600FF86A0 /* GRPCServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D27B61236E4A5700FF86A0 /* Build configuration list for PBXNativeTarget "GRPCServer" */;
+			buildPhases = (
+				02D725BC5EC06523B2E6F2EA /* [CP] Check Pods Manifest.lock */,
+				64D27B42236E4A5600FF86A0 /* Sources */,
+				64D27B43236E4A5600FF86A0 /* Frameworks */,
+				64D27B44236E4A5600FF86A0 /* Resources */,
+				D42FAD5108BF48DEB756FCB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRPCServer;
+			productName = GRPCServer;
+			productReference = 64D27B46236E4A5600FF86A0 /* GRPCServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64D27B57236E4A5700FF86A0 /* GRPCServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D27B64236E4A5700FF86A0 /* Build configuration list for PBXNativeTarget "GRPCServerTests" */;
+			buildPhases = (
+				A27A389DC0B3F42A6F3F4197 /* [CP] Check Pods Manifest.lock */,
+				64D27B54236E4A5700FF86A0 /* Sources */,
+				64D27B55236E4A5700FF86A0 /* Frameworks */,
+				64D27B56236E4A5700FF86A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D27B5A236E4A5700FF86A0 /* PBXTargetDependency */,
+			);
+			name = GRPCServerTests;
+			productName = GRPCServerTests;
+			productReference = 64D27B58236E4A5700FF86A0 /* GRPCServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D27B3E236E4A5600FF86A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Yuki Okudera";
+				TargetAttributes = {
+					64D27B45236E4A5600FF86A0 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					64D27B57236E4A5700FF86A0 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 64D27B45236E4A5600FF86A0;
+					};
+				};
+			};
+			buildConfigurationList = 64D27B41236E4A5600FF86A0 /* Build configuration list for PBXProject "GRPCServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D27B3D236E4A5600FF86A0;
+			productRefGroup = 64D27B47236E4A5600FF86A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D27B45236E4A5600FF86A0 /* GRPCServer */,
+				64D27B57236E4A5700FF86A0 /* GRPCServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D27B44236E4A5600FF86A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D27B4E236E4A5700FF86A0 /* Assets.xcassets in Resources */,
+				64D27B51236E4A5700FF86A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D27B56236E4A5700FF86A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02D725BC5EC06523B2E6F2EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRPCServer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27A389DC0B3F42A6F3F4197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRPCServerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42FAD5108BF48DEB756FCB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRPCServer/Pods-GRPCServer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRPCServer/Pods-GRPCServer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GRPCServer/Pods-GRPCServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D27B42236E4A5600FF86A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D27B4C236E4A5600FF86A0 /* ViewController.swift in Sources */,
+				64D27B4A236E4A5600FF86A0 /* AppDelegate.swift in Sources */,
+				64D27B6D236E4CAB00FF86A0 /* helloworld.grpc.swift in Sources */,
+				64D27B69236E4C7600FF86A0 /* GreeterProvider.swift in Sources */,
+				64D27B6E236E4CAB00FF86A0 /* helloworld.pb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D27B54236E4A5700FF86A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D27B5D236E4A5700FF86A0 /* GRPCServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64D27B5A236E4A5700FF86A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D27B45236E4A5600FF86A0 /* GRPCServer */;
+			targetProxy = 64D27B59236E4A5700FF86A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64D27B4F236E4A5700FF86A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D27B50236E4A5700FF86A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D27B5F236E4A5700FF86A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D27B60236E4A5700FF86A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		64D27B62236E4A5700FF86A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FD29A035F0938C7725FC0F /* Pods-GRPCServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GRPCServer/GRPCServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GRPCServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.GRPCServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64D27B63236E4A5700FF86A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1CE78E21087C48E7343AA7 /* Pods-GRPCServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GRPCServer/GRPCServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GRPCServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.GRPCServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		64D27B65236E4A5700FF86A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D04175B5BF134F5535CF1E5 /* Pods-GRPCServerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = GRPCServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.GRPCServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRPCServer.app/Contents/MacOS/GRPCServer";
+			};
+			name = Debug;
+		};
+		64D27B66236E4A5700FF86A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508A00AAC7F851E8E664D143 /* Pods-GRPCServerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = GRPCServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.GRPCServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRPCServer.app/Contents/MacOS/GRPCServer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D27B41236E4A5600FF86A0 /* Build configuration list for PBXProject "GRPCServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D27B5F236E4A5700FF86A0 /* Debug */,
+				64D27B60236E4A5700FF86A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D27B61236E4A5700FF86A0 /* Build configuration list for PBXNativeTarget "GRPCServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D27B62236E4A5700FF86A0 /* Debug */,
+				64D27B63236E4A5700FF86A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D27B64236E4A5700FF86A0 /* Build configuration list for PBXNativeTarget "GRPCServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D27B65236E4A5700FF86A0 /* Debug */,
+				64D27B66236E4A5700FF86A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D27B3E236E4A5600FF86A0 /* Project object */;
+}

@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EB3E936C98DDBA437CF0990 /* Pods_GRPCClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E758CF50779F1DF3334B88 /* Pods_GRPCClient.framework */; };
+		649EF29A236E646700EC0583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF299236E646700EC0583 /* AppDelegate.swift */; };
+		649EF29C236E646700EC0583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF29B236E646700EC0583 /* SceneDelegate.swift */; };
+		649EF29E236E646700EC0583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF29D236E646700EC0583 /* ViewController.swift */; };
+		649EF2A1236E646700EC0583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649EF29F236E646700EC0583 /* Main.storyboard */; };
+		649EF2A3236E646800EC0583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649EF2A2236E646800EC0583 /* Assets.xcassets */; };
+		649EF2A6236E646800EC0583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649EF2A4236E646800EC0583 /* LaunchScreen.storyboard */; };
+		649EF2B1236E646900EC0583 /* GRPCClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF2B0236E646900EC0583 /* GRPCClientTests.swift */; };
+		649EF2BF236E66FD00EC0583 /* helloworld.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF2BD236E66FC00EC0583 /* helloworld.grpc.swift */; };
+		649EF2C0236E66FD00EC0583 /* helloworld.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF2BE236E66FD00EC0583 /* helloworld.pb.swift */; };
+		BF0CE87F3636EEBEF9F3F4B7 /* Pods_GRPCClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E02E338C4AD92759A0E0897 /* Pods_GRPCClientTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		649EF2AD236E646900EC0583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649EF28E236E646700EC0583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 649EF295236E646700EC0583;
+			remoteInfo = GRPCClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17AE5D73CC6E2DE29D12C1CB /* Pods-GRPCClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCClient.release.xcconfig"; path = "Target Support Files/Pods-GRPCClient/Pods-GRPCClient.release.xcconfig"; sourceTree = "<group>"; };
+		1AA793BBE3263B74D5E3E55C /* Pods-GRPCClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCClientTests.release.xcconfig"; path = "Target Support Files/Pods-GRPCClientTests/Pods-GRPCClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CBBE74FA0255C3051548D7D /* Pods-GRPCClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCClientTests.debug.xcconfig"; path = "Target Support Files/Pods-GRPCClientTests/Pods-GRPCClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46BA2E6F75590BC8D97195E9 /* Pods-GRPCClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCClient.debug.xcconfig"; path = "Target Support Files/Pods-GRPCClient/Pods-GRPCClient.debug.xcconfig"; sourceTree = "<group>"; };
+		4E02E338C4AD92759A0E0897 /* Pods_GRPCClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRPCClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		649EF296236E646700EC0583 /* GRPCClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRPCClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		649EF299236E646700EC0583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		649EF29B236E646700EC0583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		649EF29D236E646700EC0583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		649EF2A0236E646700EC0583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		649EF2A2236E646800EC0583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		649EF2A5236E646800EC0583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		649EF2A7236E646800EC0583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649EF2AC236E646900EC0583 /* GRPCClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRPCClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		649EF2B0236E646900EC0583 /* GRPCClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRPCClientTests.swift; sourceTree = "<group>"; };
+		649EF2B2236E646900EC0583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649EF2BD236E66FC00EC0583 /* helloworld.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helloworld.grpc.swift; sourceTree = "<group>"; };
+		649EF2BE236E66FD00EC0583 /* helloworld.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helloworld.pb.swift; sourceTree = "<group>"; };
+		F1E758CF50779F1DF3334B88 /* Pods_GRPCClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRPCClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649EF293236E646700EC0583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB3E936C98DDBA437CF0990 /* Pods_GRPCClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649EF2A9236E646900EC0583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0CE87F3636EEBEF9F3F4B7 /* Pods_GRPCClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E6E370656836EE7FA322C5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46BA2E6F75590BC8D97195E9 /* Pods-GRPCClient.debug.xcconfig */,
+				17AE5D73CC6E2DE29D12C1CB /* Pods-GRPCClient.release.xcconfig */,
+				1CBBE74FA0255C3051548D7D /* Pods-GRPCClientTests.debug.xcconfig */,
+				1AA793BBE3263B74D5E3E55C /* Pods-GRPCClientTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		649EF28D236E646700EC0583 = {
+			isa = PBXGroup;
+			children = (
+				649EF298236E646700EC0583 /* GRPCClient */,
+				649EF2AF236E646900EC0583 /* GRPCClientTests */,
+				649EF297236E646700EC0583 /* Products */,
+				5E6E370656836EE7FA322C5F /* Pods */,
+				9630C5F8CB03127C30656014 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		649EF297236E646700EC0583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649EF296236E646700EC0583 /* GRPCClient.app */,
+				649EF2AC236E646900EC0583 /* GRPCClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649EF298236E646700EC0583 /* GRPCClient */ = {
+			isa = PBXGroup;
+			children = (
+				649EF2BB236E66E000EC0583 /* Models */,
+				649EF299236E646700EC0583 /* AppDelegate.swift */,
+				649EF29B236E646700EC0583 /* SceneDelegate.swift */,
+				649EF29D236E646700EC0583 /* ViewController.swift */,
+				649EF29F236E646700EC0583 /* Main.storyboard */,
+				649EF2A2236E646800EC0583 /* Assets.xcassets */,
+				649EF2A4236E646800EC0583 /* LaunchScreen.storyboard */,
+				649EF2A7236E646800EC0583 /* Info.plist */,
+			);
+			path = GRPCClient;
+			sourceTree = "<group>";
+		};
+		649EF2AF236E646900EC0583 /* GRPCClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				649EF2B0236E646900EC0583 /* GRPCClientTests.swift */,
+				649EF2B2236E646900EC0583 /* Info.plist */,
+			);
+			path = GRPCClientTests;
+			sourceTree = "<group>";
+		};
+		649EF2BB236E66E000EC0583 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				649EF2BC236E66E900EC0583 /* Generated */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		649EF2BC236E66E900EC0583 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				649EF2BD236E66FC00EC0583 /* helloworld.grpc.swift */,
+				649EF2BE236E66FD00EC0583 /* helloworld.pb.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		9630C5F8CB03127C30656014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E758CF50779F1DF3334B88 /* Pods_GRPCClient.framework */,
+				4E02E338C4AD92759A0E0897 /* Pods_GRPCClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		649EF295236E646700EC0583 /* GRPCClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649EF2B5236E646900EC0583 /* Build configuration list for PBXNativeTarget "GRPCClient" */;
+			buildPhases = (
+				A204604327CF41344CC3DAB0 /* [CP] Check Pods Manifest.lock */,
+				649EF292236E646700EC0583 /* Sources */,
+				649EF293236E646700EC0583 /* Frameworks */,
+				649EF294236E646700EC0583 /* Resources */,
+				1B293DED5ED95B041BE4FE9D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRPCClient;
+			productName = GRPCClient;
+			productReference = 649EF296236E646700EC0583 /* GRPCClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		649EF2AB236E646900EC0583 /* GRPCClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649EF2B8236E646900EC0583 /* Build configuration list for PBXNativeTarget "GRPCClientTests" */;
+			buildPhases = (
+				F619D7AB0C980BB077D1EB5B /* [CP] Check Pods Manifest.lock */,
+				649EF2A8236E646900EC0583 /* Sources */,
+				649EF2A9236E646900EC0583 /* Frameworks */,
+				649EF2AA236E646900EC0583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				649EF2AE236E646900EC0583 /* PBXTargetDependency */,
+			);
+			name = GRPCClientTests;
+			productName = GRPCClientTests;
+			productReference = 649EF2AC236E646900EC0583 /* GRPCClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		649EF28E236E646700EC0583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Yuki Okudera";
+				TargetAttributes = {
+					649EF295236E646700EC0583 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					649EF2AB236E646900EC0583 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 649EF295236E646700EC0583;
+					};
+				};
+			};
+			buildConfigurationList = 649EF291236E646700EC0583 /* Build configuration list for PBXProject "GRPCClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 649EF28D236E646700EC0583;
+			productRefGroup = 649EF297236E646700EC0583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				649EF295236E646700EC0583 /* GRPCClient */,
+				649EF2AB236E646900EC0583 /* GRPCClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		649EF294236E646700EC0583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649EF2A6236E646800EC0583 /* LaunchScreen.storyboard in Resources */,
+				649EF2A3236E646800EC0583 /* Assets.xcassets in Resources */,
+				649EF2A1236E646700EC0583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649EF2AA236E646900EC0583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B293DED5ED95B041BE4FE9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRPCClient/Pods-GRPCClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRPCClient/Pods-GRPCClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GRPCClient/Pods-GRPCClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A204604327CF41344CC3DAB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRPCClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F619D7AB0C980BB077D1EB5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRPCClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		649EF292236E646700EC0583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649EF29E236E646700EC0583 /* ViewController.swift in Sources */,
+				649EF29A236E646700EC0583 /* AppDelegate.swift in Sources */,
+				649EF2BF236E66FD00EC0583 /* helloworld.grpc.swift in Sources */,
+				649EF29C236E646700EC0583 /* SceneDelegate.swift in Sources */,
+				649EF2C0236E66FD00EC0583 /* helloworld.pb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649EF2A8236E646900EC0583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649EF2B1236E646900EC0583 /* GRPCClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		649EF2AE236E646900EC0583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 649EF295236E646700EC0583 /* GRPCClient */;
+			targetProxy = 649EF2AD236E646900EC0583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		649EF29F236E646700EC0583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649EF2A0236E646700EC0583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		649EF2A4236E646800EC0583 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649EF2A5236E646800EC0583 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		649EF2B3236E646900EC0583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		649EF2B4236E646900EC0583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		649EF2B6236E646900EC0583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BA2E6F75590BC8D97195E9 /* Pods-GRPCClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = GRPCClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.GRPCClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		649EF2B7236E646900EC0583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AE5D73CC6E2DE29D12C1CB /* Pods-GRPCClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = GRPCClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.GRPCClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		649EF2B9236E646900EC0583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBBE74FA0255C3051548D7D /* Pods-GRPCClientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = GRPCClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.GRPCClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRPCClient.app/GRPCClient";
+			};
+			name = Debug;
+		};
+		649EF2BA236E646900EC0583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA793BBE3263B74D5E3E55C /* Pods-GRPCClientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = GRPCClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.GRPCClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRPCClient.app/GRPCClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		649EF291236E646700EC0583 /* Build configuration list for PBXProject "GRPCClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649EF2B3236E646900EC0583 /* Debug */,
+				649EF2B4236E646900EC0583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649EF2B5236E646900EC0583 /* Build configuration list for PBXNativeTarget "GRPCClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649EF2B6236E646900EC0583 /* Debug */,
+				649EF2B7236E646900EC0583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649EF2B8236E646900EC0583 /* Build configuration list for PBXNativeTarget "GRPCClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649EF2B9236E646900EC0583 /* Debug */,
+				649EF2BA236E646900EC0583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 649EF28E236E646700EC0583 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_GRPCServer {
+  umbrella header "Pods-GRPCServer-umbrella.h"
+
+  export *
+  module * { export * }
+}
